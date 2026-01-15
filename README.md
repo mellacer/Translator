@@ -1,16 +1,52 @@
-# React + Vite
+# 🌍 TranslateNow – Tradutor de Idiomas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto Front-End de um tradutor de idiomas desenvolvido com React, focado no consumo de API externa, gerenciamento de estado e construção de uma interface moderna e responsiva.
 
-Currently, two official plugins are available:
+## 🖥️ Demonstração
+🔗 Site online: https://translator-flame-nu.vercel.app/  
+🔗 Repositório: https://github.com/mellacer/Translator
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![Preview do projeto](./src/assets/img.png)
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
+- React
+- JavaScript
+- Tailwind CSS
+- API MyMemory Translation
+- Fetch API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Funcionalidades
+- Tradução de textos entre diferentes idiomas
+- Seleção dinâmica de idioma de origem e destino
+- Troca rápida entre idiomas (swap)
+- Tradução automática com delay (debounce)
+- Indicador de carregamento durante a requisição
+- Tratamento de erros
+- Layout responsivo para desktop e mobile
 
-## Expanding the ESLint configuration
+## 📚 Objetivo do Projeto
+Projeto desenvolvido com fins educacionais, com o objetivo de praticar:
+- Consumo de APIs externas
+- Requisições assíncronas com `fetch`
+- Uso de Hooks (`useState` e `useEffect`)
+- Renderização condicional
+- Controle de estados e efeitos colaterais
+- Construção de interfaces responsivas com React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📱 Responsividade
+A aplicação é totalmente responsiva, adaptando-se a diferentes tamanhos de tela e mantendo a experiência de uso consistente em dispositivos desktop e mobile.
+
+## 🚀 Como executar o projeto
+```bash
+# Clone o repositório
+git clone https://github.com/mellacer/Translator
+
+# Acesse a pasta do projeto
+cd Translator
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
